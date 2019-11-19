@@ -1,0 +1,3 @@
+def UpdateString(a,b,c):#fixes ALL of the letters, not just one
+        d = a.replace(a[c], b)
+        print(d)
