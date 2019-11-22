@@ -1,1 +1,12 @@
-
+def ScoreFinder(players, scores, c):
+    players = str(players)
+    c = str(c)
+    players_l = players.lower()
+    players_cl = c.lower()
+    answer = players_l.find(players_cl)
+    result = 0
+    if result == -1:
+        print('OUTPUT Try again')
+    else:
+        score = scores[answer]
+        print("OUTPUT", players_cl, 'got a score of', score)
