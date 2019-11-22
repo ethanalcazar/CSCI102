@@ -1,1 +1,5 @@
-
+def FindWordCount(a,b):#"a" is the file which is being opened. Type in the name of the file, and it does the rest.
+    s = open(a, 'r')
+    stuff = s.read()
+    x = stuff.find(b)
+    return x
