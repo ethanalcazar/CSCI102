@@ -1,1 +1,6 @@
-
+def Intersection(a,b):
+    names = []
+    for i in a:
+        if i in b:
+            names.append(i)
+    print('OUTPUT', names)
