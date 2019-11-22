@@ -1,13 +1,6 @@
-def LoadFile(t): #\n still exists
-    lines = []
+def LoadFile(t):
     s = open(t, 'r')
     stuff = s.read()
     with open(t) as f:
         line = f.readlines()
-        lines.append(line[0])
-        lines.append(line[1])
-        lines.append(line[2])
-        lines.append(line[3])
-        liness = str(lines)
-        liness = liness.strip('\n')
-        print(liness)
+        print('OUTPUT', line)
