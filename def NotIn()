@@ -1,1 +1,10 @@
-
+def NotIn(a,b):
+    i = 0
+    lis = []
+    while i < len(a):
+        if a[i] not in b:
+            lis.append(a[i])
+            i += 1
+        else:
+            i += 1
+    print('OUTPUT', lis)
