@@ -1,1 +1,3 @@
-
+def Union(a, b):
+    merged_list = a + b
+    PrintOutput(merged_list)
